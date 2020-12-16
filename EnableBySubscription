@@ -10,7 +10,7 @@
     Prerequisites:
     - The user account running the script should have "Microsoft.SqlVirtualMachine/register/action" RBAC access over the subscriptions.
     - The user account running the script should have "Microsoft.Features/providers/features/register/action" RBAC access over the subscriptions.
-.EXAMPLE
+.EXAMPLE  
     To register list of Subscriptions
     .\RegisterSubscriptionsToSqlVmAutomaticRegistration.ps1 -SubscriptionList SubscriptionId1,SubscriptionId2
 #>
